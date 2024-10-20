@@ -2,7 +2,7 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=no">
     <title>Word Display with Audio</title>
     <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
     <style>
@@ -57,7 +57,7 @@
             function getNewWord() {
                 // Replace this with your actual word generation logic
                 const words = [
-                    "are", "buy", "little", "said", "too", "up", "will", "you"
+                    "do", "live", "of", "our", "wants", "what", "with", "your"
                 ];
                 currentWord = words[Math.floor(Math.random() * words.length)];
                 $('#word-display').text(currentWord);
